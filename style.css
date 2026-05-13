@@ -1,0 +1,59 @@
+/* Reset default spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #0077ff;
+    color: white;
+    padding: 40px 20px;
+}
+
+/* Main section */
+main {
+    padding: 40px 20px;
+}
+
+/* Card */
+.card {
+    background: white;
+    max-width: 500px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Button */
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #0077ff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005fd1;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background: #222;
+    color: white;
+}
