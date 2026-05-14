@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Page</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body{
+            background-color: #f4f4f4;
+        }
+
+        .container{
+            width: 80%;
+            margin: 50px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        h1{
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        p{
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        button{
+            padding: 12px 25px;
+            border: none;
+            background: #007bff;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover{
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Welcome to Demo Page</h1>
+        <p>This is a simple HTML demo file.</p>
+
+        <button onclick="showMessage()">
+            Click Me
+        </button>
+    </div>
+
+    <script>
+        function showMessage(){
+            alert("Button Clicked!");
+        }
+    </script>
+
+</body>
+</html>
